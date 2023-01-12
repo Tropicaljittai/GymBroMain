@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="NewStylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="aos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>GymBro</title>
+  </head>
+  <body>
+    <nav>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="logo">GYM<strong>BRO</strong></div>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="WorkoutPlans.html">Workout plans</a></li>
+        <li><a href="FormGuide.html">Form guide</a></li>
+        <li><a href="Calorie.html">Calorie tracker</a></li>
+        <li><a href="ContactUs.html">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" data-aos = "fade-right" data-aos-duration="1000" data-aos-once="false">
+      <img class="image" src="img/desc2.png" draggable="false" />
+      <a href="pdf/plans.pdf"><img class="image" id="ppl" src="img/alexc.jpg" draggable="false" /></a>
+      <img class="image" src="img/desc4.png" draggable="false" />
+      <a href="pdf/arnoldplan.pdf"><img class="image" id="arnold"src="img/arnoldplan.jpg" draggable="false" /></a>
+      <img class="image" src="img/desc5.png" draggable="false" />
+      <a href="pdf/pplarnoldplan.pdf"><img class="image" id="apl"src="img/cbum.png" draggable="false" /></a>
+      <img class="image" src="img/desc6.png" draggable="false" />
+      <a href="pdf/bro.pdf"><img class="image" id="laid"src="img/PPL.jpg" draggable="false" /></a>
+      <img class="image" src="img/desc8.png" draggable="false" />
+      <a href="pdf/fullbofy.pdf"><img class="image" id="chr"src="img/chris.jpg" draggable="false" /></a>
+    </div>
+    <script src="aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+    <script src="script1.js"></script>
+  </body>
+</html>
